@@ -1,0 +1,10 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+
+nuget Newtonsoft.Json >= 13.0.0
+nuget Serilog >= 3.0.0
+
+git https://github.com/fsprojects/Chessie.git master
+
+github fsprojects/Chessie src/Chessie/ErrorHandling.fs
